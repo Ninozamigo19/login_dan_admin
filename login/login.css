@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    /* background-size: cover;
+    background-image: url(Gambar\ gedung.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 0px 20px rgb(128, 128, 128);
+    /* border: 1px rgb(0, 0, 0) solid; */
+    border-radius: 15px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-username {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.input-password {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #7d1b1b;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+#username,
+#password {
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.show {
+    margin-top: .25rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.showpw {
+    font-size: 10pt;
+    margin-left: 5px;
+    /* margin-top: 1rem; */
+}
+
+.label-username {
+    margin-bottom: 5px;
+}
+
+/*! Jangan lupa flex-direction: column;*/
+
+/*TODO: Kasih margin di setiap input*/
+/*! margin top dan bottom only! */
+
+/*TODO: Kasih juga border radius*/
+/*! border-radius: disesuaikan */
+
+/*TODO: Kasih drop-shadow di .content*/
+/*! box-shadow: (Horizontal) (Vertikal) (Alpha) (Warna) */
+
+/*biar isi di dalam content nya jadi gede gmn?*/
